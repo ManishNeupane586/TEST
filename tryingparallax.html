@@ -1,0 +1,98 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        .parallax {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .parallax-1 {
+            background-image: url("https://th.bing.com/th/id/OIP.-jgZNwNUXzQXt299a3M0lQHaGl?w=800&h=711&rs=1&pid=ImgDetMain");
+        }
+
+        .parallax-2 {
+            background-image: url("https://th.bing.com/th/id/OIP.hyS8t9HIxfm3RQQJJgHgsAHaEo?w=2560&h=1600&rs=1&pid=ImgDetMain");
+        }
+
+        .parallax-3 {
+            background-image: url('https://source.unsplash.com/1600x900/?forest,trees');
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax parallax-1"></div>
+    <div class="parallax parallax-2"></div>
+    <div class="parallax parallax-3"></div>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        .parallax {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            will-change: transform;
+        }
+
+        .parallax-1 {
+            background-image: url("https://th.bing.com/th/id/OIP.-jgZNwNUXzQXt299a3M0lQHaGl?w=800&h=711&rs=1&pid=ImgDetMain");
+        }
+
+        .parallax-2 {
+            background-image: url("https://th.bing.com/th/id/OIP.hyS8t9HIxfm3RQQJJgHgsAHaEo?w=2560&h=1600&rs=1&pid=ImgDetMain");
+        }
+
+        .parallax-3 {
+            background-image: url("https://th.bing.com/th/id/OIP.xNXbpIagt4-gulh5irDBMQHaEJ?w=626&h=351&rs=1&pid=ImgDetMain");
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax parallax-1"></div>
+    <div class="parallax parallax-2"></div>
+    <div class="parallax parallax-3"></div>
+</body>
+</html>
