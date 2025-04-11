@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #d3d3d3;
+      color: black;
+    }
+
+    nav {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    .nav-left {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .nav-right a {
+      margin-left: 25px;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 80px;
+      text-align: justify;
+    }
+
+    .about-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .photo-box {
+      width: 320px;
+      height: 420px;
+      background-color: gray;
+      flex-shrink: 0;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .photo-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-left">My Portfolio</div>
+    <div class="nav-right">
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hi, I'm Manish Neupane, a passionate and curious individual currently studying in Grade 11 at the Nation School of Science (NSS). I have a deep interest in HTML, web design, and 3D modeling, which I use to express my creativity and build visually appealing and functional projects. I strive to create intuitive and user-friendly digital experiences that can make a positive impact.</p>
+      
+        <p>In addition to my technical interests, I'm an avid learner, always exploring new technologies and techniques in the ever-evolving world of web development. I enjoy taking on challenges that push me to step outside my comfort zone, and I am always eager to collaborate on exciting and innovative projects. I believe that learning is a lifelong journey, and I constantly aim to expand my skills, from coding to design, and beyond.</p>
+  
+        <p>When I'm not coding or designing, I enjoy exploring new 3D modeling software, playing video games, and staying up-to-date with the latest trends in technology. I also enjoy solving complex problems, and my attention to detail helps me deliver high-quality work.</p>
+  
+        <p>My goal is to continue developing my skills in web development and 3D modeling, ultimately building a career where I can combine my creativity with my technical abilities to bring unique ideas to life.</p>
+      </div>
+      <div class="photo-box">
+        <img src="manish.jpg" alt="Manish Neupane">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>1. Online Ecommerce Store (Used CSS to add UI)</p>
+    <a href="ecommercepage.html" target="_blank">View Project</a>
+    <br><br>
+    <p>2. Replica of Facebook Signup (Used CSS to add UI)</p>
+    <a href="facebook.html" target="_blank">View Project</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Phone number: 9861780410</p><br>
+    <p>Email: manishneupane735@gmail.com</p><br>
+    <p>Instagram: www.instagram.com/manish76500</p>
+  </section>
+
+  <footer>
+    © Manish Neupane. All rights reserved.
+  </footer>
+
+</body>
+</html>
